@@ -123,6 +123,7 @@ fatal: The upstream branch of your current branch does not match
 the name of your current branch.  To push to the upstream branch
 on the remote, use
 ```
+Исправил `git branch --set-upstream-to=origin/main main`, после чего `git push` работает нормально.
 
 Публичный статус репозитория подтверждает тегов `Public` в названии на github.
 
