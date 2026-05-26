@@ -72,7 +72,7 @@ Host github.com
 
 ### `.gitignore`
 
-Стек: `<Python | visualstudiocode | jupyter notebooks>`. Добавлен `*.swp` для работы в bash. Выбрал, потому что захотелось здесь выбрать такой набор инструментов. За основу взял шаблон с `https://www.toptal.com/developers/gitignore/api/<stack>` и [FIXME: добавил/убрал такие-то правила].
+Стек: `<Python | visualstudiocode | jupyter notebooks>`. Выбрал, потому что захотелось здесь выбрать такой набор инструментов. За основу взял шаблон с `https://www.toptal.com/developers/gitignore/api/<stack>` и добавил `*.swp` для работы в bash. 
 
 
 ### `.gitattributes`
@@ -125,7 +125,7 @@ on the remote, use
 ```
 Исправил `git branch --set-upstream-to=origin/main main`, после чего `git push` работает нормально.
 
-Публичный статус репозитория подтверждает тегов `Public` в названии на github.
+Публичный статус репозитория подтверждается тегом `Public` в названии на github.
 
 Терминал с пушем:
 
