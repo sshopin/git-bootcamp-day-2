@@ -1,0 +1,21 @@
+[core]
+ excludesFile = ~/.gitignore_global
+ editor=nano
+
+[credential]
+ helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+[user]
+ email = sshopin@*******
+ name = sshopin
+
+[init]
+  defaultBranch = main
+
+[alias]
+ aliases = config --get-regexp alias
+ lg = log --oneline --graph --all --decorate
+ last = log -1 HEAD --stat
+ undo = reset HEAD~1 --mixed
+
+[color]
+ ui = auto

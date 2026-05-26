@@ -1,0 +1,8 @@
+* text=auto
+
+*.png binary
+*.svg binary
+*.jpg binary
+
+*.ipynb diff=jupyternotebook
+*.ipynb	merge=jupyternotebook
